@@ -252,12 +252,12 @@
             >;
         };
 
-        layer_6 {
+        pointer_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&trans          &mkp RCLK       &msc SCRL_UP    &mkp LCLK        &trans    &trans     &trans  &trans  &trans  &trans
+&mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &tog 6    &kp RCTRL  &trans  &trans  &trans  &trans
+&trans          &trans          &msc SCRL_DOWN  &trans           &trans    &trans     &trans  &trans  &trans  &trans
+                                                &trans           &trans    &trans     &trans
             >;
         };
 
