@@ -179,7 +179,7 @@
         };
 
         layout_switch {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <32 31>;
         };
 
@@ -197,7 +197,7 @@
 &kp B             &kp F               &kp L           &kp K               &kp V          &kp P             &kp G       &kp O               &kp U                        &kp PERIOD
 &mt LEFT_SHIFT N  &lt 5 S             &lt 1 H         &lt 3 T             &kp M          &kp C             &lt 4 Y     &lt 2 A             &lt 6 E                      &mt RIGHT_SHIFT I
 &kp X             &mt LEFT_CONTROL Z  &mt LEFT_ALT J  &mt LEFT_COMMAND D  &kp Q          &kp SINGLE_QUOTE  &mt RCMD W  &mt LEFT_ALT SLASH  &mt RIGHT_CONTROL SEMICOLON  &kp COMMA
-                                                      &kp ESCAPE          &lt 8 SPACE    &lt 7 R           &kp ENTER
+                                                      &kp ESCAPE          &lt 7 SPACE    &lt 8 R           &kp ENTER
             >;
         };
 
@@ -234,10 +234,10 @@
         left_sym_layer {
             display-name = "SYM_LEFT";
             bindings = <
-&trans          &kp COLON        &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON    &trans  &bootloader  &bt BT_SEL 0  &studio_unlock  &out OUT_TOG
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans  &trans       &kp PLUS      &kp EQUAL       &kp PERCENT
-&trans          &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &trans  &trans       &bt BT_SEL 1  &soft_off       &bt BT_CLR
-                                                       &trans                 &trans           &trans  &trans
+&trans          &kp COLON        &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON    &trans       &trans  &bt BT_SEL 0  &studio_unlock  &out OUT_TOG
+&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans       &trans  &kp PLUS      &kp EQUAL       &kp PERCENT
+&trans          &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &trans       &trans  &bt BT_SEL 1  &soft_off       &bt BT_CLR
+                                                       &trans                 &trans           &bootloader  &trans
             >;
         };
 
@@ -260,15 +260,6 @@
             >;
         };
 
-        media_layer {
-            bindings = <
-&trans            &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans         &trans  &trans  &trans  &trans  &trans
-&kp C_PLAY_PAUSE  &kp C_MUTE       &kp C_VOL_DN    &kp C_VOL_UP     &kp C_POWER    &trans  &trans  &trans  &trans  &trans
-&trans            &kp C_AC_HOME    &kp C_AL_MAIL   &kp C_AL_CALC    &trans         &trans  &trans  &trans  &trans  &trans
-                                                   &trans           &trans         &trans  &trans
-            >;
-        };
-
         combo_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans         &trans         &trans
@@ -278,12 +269,21 @@
             >;
         };
 
+        media_layer {
+            bindings = <
+&trans            &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans         &trans  &trans  &trans  &trans  &trans
+&kp C_PLAY_PAUSE  &kp C_MUTE       &kp C_VOL_DN    &kp C_VOL_UP     &kp C_POWER    &trans  &trans  &trans  &trans  &trans
+&trans            &kp C_AC_HOME    &kp C_AL_MAIL   &kp C_AL_CALC    &trans         &trans  &trans  &trans  &trans  &trans
+                                                   &trans           &trans         &trans  &trans
+            >;
+        };
+
         ru {
             bindings = <
 &kp B             &kp F               &kp L           &kp K               &kp V          &kp P             &kp G       &kp O               &kp U                        &kp PERIOD
 &mt LEFT_SHIFT N  &lt 5 S             &lt 1 H         &lt 3 T             &kp M          &kp C             &lt 4 Y     &lt 2 A             &lt 6 E                      &mt RIGHT_SHIFT I
 &kp X             &mt LEFT_CONTROL Z  &mt LEFT_ALT J  &mt LEFT_COMMAND D  &kp Q          &kp SINGLE_QUOTE  &mt RCMD W  &mt LEFT_ALT SLASH  &mt RIGHT_CONTROL SEMICOLON  &kp COMMA
-                                                      &kp ESCAPE          &lt 8 SPACE    &lt 7 R           &kp ENTER
+                                                      &kp ESCAPE          &lt 7 SPACE    &lt 8 R           &kp ENTER
             >;
         };
     };
