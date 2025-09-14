@@ -193,12 +193,11 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "DEFAULT";
             bindings = <
-&kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
-&kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F   &kp G         &kp H      &ht RGUI J   &ht RCTRL K  &ht RALT L  &kp BSPC
-&kp Z  &kp X       &kp C        &kp V        &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp ENTER
-                                &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
+&kp B             &kp F               &kp L           &kp K               &kp V          &kp P             &kp G       &kp O               &kp U                        &kp PERIOD
+&mt LEFT_SHIFT N  &lt 5 S             &lt 1 H         &lt 3 T             &kp M          &kp C             &lt 4 Y     &lt 2 A             &lt 6 E                      &mt RIGHT_SHIFT I
+&kp X             &mt LEFT_CONTROL Z  &mt LEFT_ALT J  &mt LEFT_COMMAND D  &kp Q          &kp SINGLE_QUOTE  &mt RCMD W  &mt LEFT_ALT SLASH  &mt RIGHT_CONTROL SEMICOLON  &kp COMMA
+                                                      &kp ESCAPE          &lt 8 SPACE    &lt 7 R           &kp ENTER
             >;
         };
 
@@ -281,10 +280,10 @@
 
         ru {
             bindings = <
-&kp B             &kp F               &kp L           &kp K               &kp V        &kp P             &kp G       &kp O               &kp U                        &kp PERIOD
-&mt LEFT_SHIFT N  &lt 5 S             &lt 1 H         &lt 3 T             &kp M        &kp C             &lt 4 Y     &lt 2 A             &lt 6 E                      &mt RIGHT_SHIFT I
-&kp X             &mt LEFT_CONTROL Z  &mt LEFT_ALT J  &mt LEFT_COMMAND D  &kp Q        &kp SINGLE_QUOTE  &mt RCMD W  &mt LEFT_ALT SLASH  &mt RIGHT_CONTROL SEMICOLON  &kp COMMA
-                                                      &lt 8 ESCAPE        &kp SPACE    &lt 7 R           &kp ENTER
+&kp B             &kp F               &kp L           &kp K               &kp V          &kp P             &kp G       &kp O               &kp U                        &kp PERIOD
+&mt LEFT_SHIFT N  &lt 5 S             &lt 1 H         &lt 3 T             &kp M          &kp C             &lt 4 Y     &lt 2 A             &lt 6 E                      &mt RIGHT_SHIFT I
+&kp X             &mt LEFT_CONTROL Z  &mt LEFT_ALT J  &mt LEFT_COMMAND D  &kp Q          &kp SINGLE_QUOTE  &mt RCMD W  &mt LEFT_ALT SLASH  &mt RIGHT_CONTROL SEMICOLON  &kp COMMA
+                                                      &kp ESCAPE          &lt 8 SPACE    &lt 7 R           &kp ENTER
             >;
         };
     };
