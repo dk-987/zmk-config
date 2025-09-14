@@ -179,7 +179,7 @@
         };
 
         layout_switch {
-            bindings = <&tog 10>;
+            bindings = <&tog 9>;
             key-positions = <32 31>;
         };
 
