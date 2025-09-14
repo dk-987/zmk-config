@@ -270,11 +270,11 @@
             >;
         };
 
-        layer_8 {
+        combo_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LC(L))  &kp LS(LC(O))  &kp LS(LC(T))  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans         &trans         &trans
                         &trans  &trans    &trans  &trans
             >;
         };
