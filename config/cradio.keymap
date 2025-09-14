@@ -202,13 +202,13 @@
             >;
         };
 
-        windows_layer {
-            display-name = "WIN";
+        func_layer {
+            display-name = "FUNC";
             bindings = <
-&kp Q  &kp W       &kp E       &kp R        &kp T         &kp Y      &kp U        &kp I       &kp O       &kp P
-&kp A  &ht LALT S  &ht LGUI D  &ht LCTRL F  &kp G         &kp H      &ht RCTRL J  &ht RGUI K  &ht RALT L  &kp BSPC
-&kp Z  &kp X       &kp C       &kp V        &kp B         &kp N      &kp M        &kp COMMA   &kp DOT     &kp ENTER
-                               &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
+&trans  &trans  &trans  &trans  &trans    &kp F12  &kp F7  &kp F8  &kp F9  &trans
+&trans  &trans  &trans  &trans  &trans    &kp F10  &kp F1  &kp F2  &kp F3  &kp BSPC
+&trans  &trans  &trans  &trans  &trans    &kp F11  &kp F4  &kp F5  &kp F6  &kp ENTER
+                        &trans  &trans    &trans   &trans
             >;
         };
 
