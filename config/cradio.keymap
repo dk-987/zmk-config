@@ -222,22 +222,22 @@
             >;
         };
 
-        left_layer {
-            display-name = "SYMBOL";
+        right_sym_layer {
+            display-name = "SYM_RIGHT";
             bindings = <
-&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT          &kp CARET   &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE
-&kp DQT   &kp LBKT  &kp LBRC  &kp LPAR  &default_report    &kp FSLH    &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI
-&kp SQT   &kp RBKT  &kp RBRC  &kp RPAR  &bootloader        &kp BSLH    &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK
-                              &trans    &trans             &tog MOUSE  &trans
+&trans     &trans        &trans         &trans  &trans    &trans    &kp UNDERSCORE  &kp PIPE       &kp SINGLE_QUOTE   &trans
+&kp CARET  &kp ASTERISK  &kp AMPERSAND  &trans  &trans    &kp HASH  &kp TILDE       &kp SLASH      &kp DOUBLE_QUOTES  &kp DOLLAR
+&trans     &trans        &trans         &trans  &trans    &trans    &kp MINUS       &kp BACKSLASH  &kp GRAVE          &trans
+                                        &trans  &trans    &trans    &trans
             >;
         };
 
         left_sym_layer {
             display-name = "SYM_LEFT";
             bindings = <
-&trans          &kp COLON        &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON    &trans  &trans  &bt BT_SEL 0  &studio_unlock  &out OUT_TOG
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans  &trans  &kp PLUS      &kp EQUAL       &kp PERCENT
-&trans          &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &trans  &trans  &bt BT_SEL 1  &soft_off       &bt BT_CLR
+&trans          &kp COLON        &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON    &trans  &bootloader  &bt BT_SEL 0  &studio_unlock  &out OUT_TOG
+&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans  &trans       &kp PLUS      &kp EQUAL       &kp PERCENT
+&trans          &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &trans  &trans       &bt BT_SEL 1  &soft_off       &bt BT_CLR
                                                        &trans                 &trans           &trans  &trans
             >;
         };
