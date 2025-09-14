@@ -1,5 +1,3 @@
-#+Title: k4i's split kbd
-
 * Quick Start
 
 ** flash new firmware
