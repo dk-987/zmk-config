@@ -199,11 +199,6 @@
             key-positions = <8 6>;
             layers = <9>;
         };
-
-        layout_toggle {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <31 32>;
-        };
     };
 
     keymap {
