@@ -178,11 +178,6 @@
             key-positions = <33 32>;
         };
 
-        layout_switch {
-            bindings = <&tog 9>;
-            key-positions = <32 31>;
-        };
-
         printscreen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <30 33>;
@@ -198,6 +193,11 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 6>;
             layers = <9>;
+        };
+
+        jcuken {
+            bindings = <&tog 9>;
+            key-positions = <31 32>;
         };
     };
 
