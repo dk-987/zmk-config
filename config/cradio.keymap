@@ -236,10 +236,10 @@
         right_sym_layer {
             display-name = "SYM_RIGHT";
             bindings = <
-&trans     &trans        &trans         &trans  &trans    &trans    &kp UNDERSCORE  &kp PIPE       &kp SINGLE_QUOTE   &trans
-&kp CARET  &kp ASTERISK  &kp AMPERSAND  &trans  &trans    &kp HASH  &kp TILDE       &kp SLASH      &kp DOUBLE_QUOTES  &kp DOLLAR
-&trans     &trans        &trans         &trans  &trans    &trans    &kp MINUS       &kp BACKSLASH  &kp GRAVE          &trans
-                                        &trans  &trans    &trans    &trans
+&trans     &trans        &trans         &trans  &trans         &trans    &kp UNDERSCORE  &kp PIPE       &kp SINGLE_QUOTE   &trans
+&kp CARET  &kp ASTERISK  &kp AMPERSAND  &trans  &trans         &kp HASH  &kp TILDE       &kp SLASH      &kp DOUBLE_QUOTES  &kp DOLLAR
+&trans     &trans        &trans         &trans  &trans         &trans    &kp MINUS       &kp BACKSLASH  &kp GRAVE          &trans
+                                        &trans  &bootloader    &trans    &trans
             >;
         };
 
