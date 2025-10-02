@@ -83,19 +83,14 @@
             key-positions = <12 11 10>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19 17>;
-        };
-
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <0 1 2>;
+            key-positions = <3 6>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <8 7 9>;
+            key-positions = <7 2>;
         };
 
         caps_word {
