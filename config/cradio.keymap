@@ -128,13 +128,8 @@
             key-positions = <26 27 28>;
         };
 
-        lgui {
-            bindings = <&sk LCMD>;
-            key-positions = <31 30>;
-        };
-
-        rgui {
-            bindings = <&sk RCMD>;
+        reset {
+            bindings = <&to 0>;
             key-positions = <33 32>;
         };
 
