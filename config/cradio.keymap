@@ -128,11 +128,6 @@
             key-positions = <26 27 28>;
         };
 
-        reset {
-            bindings = <&to 0>;
-            key-positions = <33 32>;
-        };
-
         printscreen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <30 33>;
